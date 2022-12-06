@@ -5,16 +5,21 @@ Wraps around [this](https://github.com/transitive-bullshit/chatgpt-api) unoffici
 
 ## Usage
 
-Clone the repo:
+1. Clone the repo:
 
 ```
 git clone https://github.com/jnt0rrente/harold.git
 ```
 
-Access the node application directory:
+2. Access the node application directory:
 
 ```
 cd harold && cd harold
 ```
 
-Create a .env file with a SESSION_TOKEN value equal to your ChatGPT session token. See [transitive bullshit's repo](https://github.com/transitive-bullshit/chatgpt-api) for detailed instructions.
+3. Create a .env file with a SESSION_TOKEN value equal to your ChatGPT session token. See [transitive bullshit's repo](https://github.com/transitive-bullshit/chatgpt-api) for detailed instructions.
+
+4. Run
+```
+npm start
+```
